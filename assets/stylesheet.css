@@ -54,6 +54,13 @@ table {
 * {
 	font-family: monospace;
 	font-size: 1em;
+	font-family: monospace;
+/* This next part fixes the elements in the header and footer.
+Without this CSS, the appears smaller than specified mobile devices.*/
+	text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
