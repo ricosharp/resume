@@ -63,11 +63,6 @@ Without this CSS, the appears smaller than specified mobile devices.*/
     -webkit-text-size-adjust: 100%;
 }
 
-body {
-	width: 550px;
-	margin: 20px 0 0 30px;
-}
-
 h1 {
 	font-family: monospace;
 	font-size: 1em;
@@ -92,6 +87,12 @@ a {
 
 footer {
 	clear: both;
+}
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
 }
 
 .container h1 {
